@@ -5,7 +5,7 @@
            <!-- <class name="PageFactory.BaseClass"/>
             <class name="PageFactory.PageFactoryFindBy"/>-->
             <class name="AutomationFrameworkTC.pageFactoryTestRun"/>
-            <class name="SeleniumExample"/>
+            <class name="AutomationFrameworkTC.SeleniumSample"/>
         </classes>
     </test>
 </suite>
