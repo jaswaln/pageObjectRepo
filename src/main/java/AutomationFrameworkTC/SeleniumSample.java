@@ -28,8 +28,8 @@ public class SeleniumSample   {
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 
         driver.get("https://www.facebook.com");
-        LoginPage.userName(driver).sendKeys("9665287806");
-        LoginPage.userPass(driver).sendKeys("Shubhu4ulove");
+        LoginPage.userName(driver).sendKeys("***********");
+        LoginPage.userPass(driver).sendKeys("***********");
         LoginPage.loginBtn(driver).click();
 
         System.out.println("Login Successfully!!!!!");
