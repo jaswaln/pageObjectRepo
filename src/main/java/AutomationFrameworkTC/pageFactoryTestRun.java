@@ -24,6 +24,7 @@ public class pageFactoryTestRun   {
         PageFactory.initElements(driver,pgF);
 
         pgF.gSearch();
+        driver.quit();
     }
 
 }

@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Test1">
+    <test name="test">
+        <classes>
+           <!-- <class name="PageFactory.BaseClass"/>
+            <class name="PageFactory.PageFactoryFindBy"/>-->
+            <class name="AutomationFrameworkTC.pageFactoryTestRun"/>
+            <class name="SeleniumExample"/>
+        </classes>
+    </test>
+</suite>

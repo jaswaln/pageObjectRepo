@@ -3,6 +3,7 @@ package AutomationFrameworkTC;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
+import org.testng.annotations.Test;
 import pageObject.HomePage;
 import pageObject.LoginPage;
 
@@ -12,6 +13,8 @@ import java.util.concurrent.TimeUnit;
  * Created by Neeraj on 05-02-2018.
  */
 public class SeleniumSample   {
+
+    @Test
     public static void main(String args[]) throws InterruptedException
     {
         System.setProperty("webdriver.gecko.driver", "F:\\SeleniumExample\\geckodriver.exe");
@@ -38,6 +41,8 @@ public class SeleniumSample   {
         HomePage.logOut_Account2(driver).click();
 
         System.out.println("Log Out Successfully!!!!!");
+
+        driver.quit();
 
 
     }
