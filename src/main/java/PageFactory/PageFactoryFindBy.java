@@ -7,9 +7,7 @@ import org.openqa.selenium.support.How;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.Test;
 
-/**
- * Created by Neeraj on 10-02-2018.
- */
+
 public class PageFactoryFindBy
 {
     public static WebDriver driver;
